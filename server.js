@@ -6,7 +6,7 @@ var Todo = require('./models/todos');
 
 var app = express();
 
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use('/api/todos', require('./controllers/api/todos'));
