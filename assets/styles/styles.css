@@ -1,0 +1,31 @@
+h1
+{
+  text-align: center;
+}
+
+.center
+{
+    margin: 0 auto;
+    width: 80%;
+}
+.nav{
+
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+code
+{
+  background-color: rgba(40, 44, 52, 1);
+  color: rgba(171,178,190,1);
+  text-align:center;
+}

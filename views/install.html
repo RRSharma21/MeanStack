@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Installation </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">MEAN</a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+          <ul class="nav navbar-nav">
+            <li><a href="/">What is Mean <span class="sr-only">(current)</span></a></li>
+            <li  class="active"> <a href="#">Installation</a></li>
+            <li><a href="/design">Design an app!</a></li>
+            <li><a href="/example">TODOs !</a></li>
+            <li><a href="/experience">Our Experience with MEAN</a></li>
+            <li><a href="/credits">About Us</a></li>
+          </ul>
+        </div>
+
+    </nav>
+
+    <h1> Installing MEAN Stack on a MAC </h1>
+      <hr>
+
+    <div class="jumbotron">
+        <div class = "container">
+        <p style="font-size:19px">
+          To install the MEAN stack you must first download Node.js and MongoDB from their respective websites,
+          which can be accessed down below:
+
+        </p>
+        <div style="text-align: center">
+
+          <a href="https://www.mongodb.com"> MongoDB </a> </br>
+          <a href="https://nodejs.org/en/"> NodeJS </a>
+        </div>
+        <br>
+        <p style="font-size:19px"> For installing on a Mac, ensure that you first have <a href="http://brew.sh"> Homebrew </a> . If you don't have homebrew
+            installed, open Terminal and run the following command:
+
+        </p>
+        <div style="text-align: center">
+          <code>
+            /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+          </code>
+        </div>
+        <hr>
+        <p style="font-size:19px">
+          First Install NodeJS, by downloading it from the website and then running the installer (shown below).
+        </p>
+        <div align="center"> <img src="imgs/node.png" alt="NodeJS" height="510" width="600"> </div>
+        <hr>
+        <p style="font-size:19px"> Once installing NodeJS, you must next install MongoDB through your newly installed Homebrew through running
+            the following command
+        </p>
+        <div style="text-align: center">
+          <code>
+              brew install mongodb --with-openssl
+          </code>
+        </div>
+        <br>
+        <p style="font-size:19px">
+            After installing MongoDB you're now ready to start working with the MEAN stack. Create your project
+            then once your ready to test your code run the following code in Terminal to start your server:
+        </p>
+        <div style="text-align: center">
+          <code>
+              node server.js
+          </code>
+        </div>
+        </thead>
+      </div>
+    </div>
+  </body>
+
+</html>
