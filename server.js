@@ -6,10 +6,12 @@ var Todo = require('./models/todos');
 
 var app = express();
 
+var port = process.env.port || 3000;
+
 app.use(bodyParser.json());
 app.use('/api/todos', require('./controllers/api/todos'));
 app.use(require('./controllers/static'));
 
-app.listen(3000, function() {
-  console.log('Server listening on', 3000);
+app.listen(port, function() {
+  console.log('Server listening on', port);
 });
